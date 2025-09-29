@@ -1,0 +1,51 @@
+% python3 blocksworld.py probB05.bwp
+iter=1, depth=0, pathcost=0, heuristic=10, score=10, Qsize=0
+iter=2, depth=1, pathcost=1, heuristic=8, score=9, Qsize=19
+iter=3, depth=2, pathcost=2, heuristic=6, score=8, Qsize=37
+iter=4, depth=3, pathcost=3, heuristic=4, score=7, Qsize=55
+iter=5, depth=4, pathcost=4, heuristic=2, score=6, Qsize=69
+iter=6, depth=5, pathcost=5, heuristic=0, score=5, Qsize=87
+success! iter=6, cost=5, depth=5, max queue size=88
+move 0, pathcost=0, heuristic=10, f(n)=g(n)+h(n)=10
+AE
+CF
+D
+GHIJ
+B
+>>>>>>>>>>
+move 1, pathcost=1, heuristic=8, f(n)=g(n)+h(n)=9
+AE
+CF
+DJ
+GHI
+B
+>>>>>>>>>>
+move 2, pathcost=2, heuristic=6, f(n)=g(n)+h(n)=8
+AE
+CFI
+DJ
+GH
+B
+>>>>>>>>>>
+move 3, pathcost=3, heuristic=4, f(n)=g(n)+h(n)=7
+AE
+CFI
+DJB
+GH
+
+>>>>>>>>>>
+move 4, pathcost=4, heuristic=2, f(n)=g(n)+h(n)=6
+AE
+CFI
+DJB
+G
+H
+>>>>>>>>>>
+move 5, pathcost=5, heuristic=0, f(n)=g(n)+h(n)=5
+AEG
+CFI
+DJB
+
+H
+>>>>>>>>>>
+statistics: probB05.bwp method Astar planlen 5 iters 6 maxq 88
